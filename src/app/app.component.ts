@@ -11,12 +11,12 @@ export class AppComponent implements OnInit {
 
   public ngOnInit(): void {
     const firebaseConfig = {
-      apiKey: 'AIzaSyBKldifMz7O7X8oPaVZrMvTYA31y7YvONg',
-      authDomain: 'my-firebase-test-982ac.firebaseapp.com',
-      databaseURL: 'https://my-firebase-test-982ac.firebaseio.com',
-      projectId: 'my-firebase-test-982ac',
-      storageBucket: 'my-firebase-test-982ac.appspot.com',
-      messagingSenderId: '606037919278'
+      apiKey: '',
+      authDomain: '',
+      databaseURL: '',
+      projectId: '',
+      storageBucket: '',
+      messagingSenderId: ''
     };
     firebase.initializeApp(firebaseConfig);
   }
